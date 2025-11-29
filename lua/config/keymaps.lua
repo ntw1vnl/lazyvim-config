@@ -8,8 +8,8 @@ keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("n", "x", '"_x', { desc = "Delete single character without copying into register" })
 
 -- Vertical scroll and center
-keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true })
-keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true })
+-- keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true })
+-- keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true })
 
 -- Find and center
 keymap.set("n", "n", "nzzzv")
