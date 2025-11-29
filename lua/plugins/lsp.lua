@@ -15,8 +15,9 @@ return {
         },
       },
       qmlls = {
+        mason = false,
         cmd = {
-          "qmlls",
+          "/usr/lib/qt6/bin/qmlls",
           "-E",
         },
       },
